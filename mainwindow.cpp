@@ -38,8 +38,6 @@ void MainWindow::on_connectButton_clicked()
     else {
         addLog("Opening Failed " + db.lastError().text());
     }
-
-
 }
 
 void MainWindow::on_executeButton_clicked()
